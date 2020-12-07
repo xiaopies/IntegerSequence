@@ -4,6 +4,7 @@ public class Tester{
    while(r.hasNext()){
      System.out.print(r.next());
       if( r.hasNext() ){
+
          System.out.print( ", " );
        }
         System.out.println();

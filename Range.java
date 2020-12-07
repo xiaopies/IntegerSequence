@@ -1,10 +1,10 @@
 import java.util.NoSuchElementException;
 public class Range implements IntegerSequence{
   private int start,end,current;
-  public Range(int start,  int end){
-    start = start;
-    end = end;
-    current = start;
+  public Range(int hello,  int byebye){
+    start = hello;
+    end = byebye;
+    current = hello;
   }
   public void reset(){
     current = start;
