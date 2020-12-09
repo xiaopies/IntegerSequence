@@ -29,4 +29,17 @@ public class ArraySequence implements IntegerSequence{
       return data[currentIndex-1];
     }
   }
+
+  public ArraySequence(IntegerSequence otherseq){
+    otherseq.reset();
+    int a =0;
+    data = new int[otherseq.length()];
+
+    while (otherseq.hasNext()){
+      data[a] = otherseq.next();
+      a++;
+
+    }
+    currentIndex=0;
+  }
 }
